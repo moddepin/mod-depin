@@ -1,0 +1,1 @@
+{"name":"mod-depin","version":"0.1.0","private":true,"scripts":{"build":"tsc","test":"jest --passWithNoTests"},"devDependencies":{"typescript":"^5.4","@types/node":"^20","jest":"^29"}}
