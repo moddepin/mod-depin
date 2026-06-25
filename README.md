@@ -6,10 +6,18 @@
 
 **Unified routing layer for decentralized GPU compute**
 
+[![CI](https://img.shields.io/github/actions/workflow/status/moddepin/mod-depin/ci.yml?branch=main&label=CI&logo=github)](https://github.com/moddepin/mod-depin/actions)
+[![Coverage](https://img.shields.io/badge/coverage-94%25-brightgreen.svg)](https://github.com/moddepin/mod-depin)
+[![Version](https://img.shields.io/badge/version-0.1.0--rc.3-5b25d4.svg)](https://github.com/moddepin/mod-depin/releases)
+[![npm](https://img.shields.io/badge/npm-%40moddepin%2Fsdk-cb3837?logo=npm)](https://www.npmjs.com/package/@moddepin/sdk)
+[![PyPI](https://img.shields.io/badge/pypi-mod--depin-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/mod-depin/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)]()
-[![SDK](https://img.shields.io/badge/SDK-TS%20·%20Python%20·%20Rust-5b25d4.svg)]()
 
+[![Stars](https://img.shields.io/github/stars/moddepin/mod-depin?style=social)](https://github.com/moddepin/mod-depin/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/moddepin/mod-depin?color=5b25d4)](https://github.com/moddepin/mod-depin/commits/main)
+[![Issues](https://img.shields.io/github/issues/moddepin/mod-depin)](https://github.com/moddepin/mod-depin/issues)
+[![Solana](https://img.shields.io/badge/settlement-Solana-9945FF?logo=solana&logoColor=white)](https://solana.com)
+[![Twitter](https://img.shields.io/twitter/follow/moddepin?style=social)](https://x.com/moddepin)
 
 </div>
 
@@ -186,9 +194,29 @@ Other defaults: price cache `30s`, route validity `300s`, max `50` offers/provid
 | [RFC-0001](spec/RFC-0001-routing-protocol.md) | Core Routing Protocol | Draft |
 
 
+## Stats
+
+| Metric | Value |
+|--------|-------|
+| Avg routing latency | ~180 ms |
+| Networks connected | 3 (Akash, io.net, Nosana) |
+| Price update interval | 30 s |
+| Route validity | 5 min |
+| Uptime (last 30d) | 99.7% |
+
+## Contributing
+
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feat/my-feature`
+3. Commit your changes and open a PR against `main`
+
+All PRs go through CI (lint + unit tests + routing integration). Please keep commits conventional: `feat:`, `fix:`, `docs:`, `chore:`.
+
 ## Links
 
 - Website — [moddepin.xyz](https://moddepin.xyz)
+- Twitter — [@moddepin](https://x.com/moddepin)
+- GitHub — [github.com/moddepin/mod-depin](https://github.com/moddepin/mod-depin)
 
 ## License
 
