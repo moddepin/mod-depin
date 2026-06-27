@@ -21,8 +21,17 @@
 
 </div>
 
----
+<div align="center">
 
+### Contract Address
+```
+51fRpMFDFfD5wsfqcMtkWjEPaeTdvwEVPEvLaiA1pump
+```
+[![Solscan](https://img.shields.io/badge/Solscan-view-9945FF?logo=solana&logoColor=white)](https://solscan.io/token/51fRpMFDFfD5wsfqcMtkWjEPaeTdvwEVPEvLaiA1pump)
+
+</div>
+
+---
 ## Overview
 
 DePIN GPU markets are fragmented. Akash, io.net, and Nosana list the same cards at different prices, in different regions, with different reliability — and those prices move every minute. Builders end up shopping across dashboards, juggling accounts, and still overpaying.
